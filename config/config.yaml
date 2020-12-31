@@ -1,0 +1,10 @@
+pkg: "robot_navigation_tutorial"
+launchfile: "embedded_sim.launch"
+ros_setup_script: "/home/user/catkin_ws/devel/setup.sh"
+ros_launch_path: "/opt/ros/melodic/bin/roslaunch"
+monitor: EmbeddedMonitor
+
+ros_required_node: 
+- "/gen_from_csv"
+
+monitor_subscriber_topic: "experiment_status"
